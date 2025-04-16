@@ -1,0 +1,10 @@
+/*
+ Theme Name:   DSL WP Theme
+ Template:     sputznik-core-wp-theme
+ Version:      1.0.0
+ Author:       Suhail Bin Abdullah
+ Description:  Child theme for Sputznik Core Theme
+*/
+
+/* Import parent theme styles */
+@import url("../sputznik-core-wp-theme/style.css");
