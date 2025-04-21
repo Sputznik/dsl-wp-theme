@@ -5,7 +5,6 @@ $url = isset( $atts['url'] ) ? $atts['url'] : '#';
 
 ?>
 
-<div class="news-archive-title">News Archive</div>
 <ul id="<?php echo esc_attr( $id ); ?>" 
     data-target="li.orbit-article-db" 
     data-url="<?php echo esc_url( $url ); ?>" 
