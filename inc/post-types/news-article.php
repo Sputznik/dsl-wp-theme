@@ -1,5 +1,5 @@
 <?php
-function custom_post_type_news_articles() {
+function dsl_post_type_news_articles() {
     $labels = array(
         'name' => 'News Articles',
         'singular_name' => 'News Article',
@@ -20,7 +20,7 @@ function custom_post_type_news_articles() {
 
     register_post_type('news_article', $args);
 }
-add_action('init', 'custom_post_type_news_articles');
+add_action('init', 'dsl_post_type_news_articles');
 
 function news_article_columns($columns) {
     $columns['publisher']     = 'Publisher';
