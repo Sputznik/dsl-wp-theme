@@ -8,7 +8,7 @@ $url = isset( $atts['url'] ) ? $atts['url'] : '#';
 <ul id="<?php echo esc_attr( $id ); ?>" 
     data-target="li.orbit-article-db" 
     data-url="<?php echo esc_url( $url ); ?>" 
-    class="articles-three-grid orbit-three-grid orbit-list-db">
+    class="dsl-articles-three-grid orbit-three-grid orbit-list-db">
 
     <?php if ( $this->query->have_posts() ) : ?>
         <?php while ( $this->query->have_posts() ) : $this->query->the_post(); ?>

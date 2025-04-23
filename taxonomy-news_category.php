@@ -5,7 +5,7 @@
   get_header();
   $term = get_queried_object();
 ?>
-<div class="">
+<div class="dsl-articles-three-grid">
   <div class="container">
     <h1 class="news-archive-title">news archive: <?php echo esc_html($term->name); ?></h1>
   </div>
