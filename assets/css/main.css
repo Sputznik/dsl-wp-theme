@@ -171,7 +171,7 @@ ul.what-we-do-list li {
   background-color: #5fbb49;
 }
 
-.dsl-articles-three-grid .dsl-btn-load-more {
+.orbit-btn-load-parent .dsl-btn-load-more {
   color: #efecdf;
   font-size: 16px;
   cursor: pointer;
@@ -187,13 +187,13 @@ ul.what-we-do-list li {
   transition: all 0.3s ease;
 }
 
-.dsl-articles-three-grid .dsl-btn-load-more:hover {
+.orbit-btn-load-parent .dsl-btn-load-more:hover {
   background: #358fae;
   border-color: #358fae;
   text-decoration: none;
 }
 
-.dsl-articles-three-grid .dsl-load-more {
+.dsl-load-more {
   margin: 60px 0;
   text-align: center;
 }
