@@ -5,7 +5,7 @@
     width: 1260px;
   }
 }
-.dsl-articles-three-grid h1,
+h1,
 h2,
 h3,
 h4 {
@@ -82,9 +82,9 @@ ul.what-we-do-list li {
 .dsl-articles-three-grid .news-archive-title {
   color: #358fae;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 90px 0;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -196,4 +196,41 @@ ul.what-we-do-list li {
 .dsl-load-more {
   margin: 60px 0;
   text-align: center;
+}
+
+/* news-category tax template */
+.orbit-three-grid {
+  /* this class is in parent theme and we are over-riding this here */
+  grid-gap: 45px;
+}
+
+/* Single template 3*/
+.single-template-3 .post-thumbnail {
+  margin: 45px 0px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.single-template-3 .entry-author.author-box,
+.single-template-3 .entry-summary {
+  display: none;
+}
+
+.single-template-3 a.single-read-button {
+  display: inline-flex;
+  align-items: baseline;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.55rem 1.2rem;
+  border-radius: 9999px;
+  /* margin: 0 1.2rem 1.5rem; */
+  text-align: justify;
+  font-size: 16px;
+  transition: background 0.2s ease;
+  width: fit-content;
+}
+
+.single-template-3 a.single-read-button:hover {
+  background-color: #5fbb49;
 }
