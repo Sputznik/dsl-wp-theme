@@ -6,7 +6,7 @@
 
     echo '<div class="orbit-article">';
         if (has_post_thumbnail()) {
-            echo '<div class="orbit-thumb">' . get_the_post_thumbnail(get_the_ID(), 'medium') . '</div>';
+            echo '<div class="orbit-thumb">' . get_the_post_thumbnail(get_the_ID(), 'large') . '</div>';
         } else {
             echo '<div class="orbit-thumb placeholder-thumb">No Featured Image Available</div>';
         }
