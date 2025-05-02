@@ -29,9 +29,6 @@
               <?php endif; ?>
             </div>
           <?php endif; ?>
-        <?php get_template_part( 'partials/author', 'box');?>
-        <?php get_template_part( 'partials/comments', 'box');?>
-        <?php get_template_part( 'partials/post', 'navigation');?>
       </article>
       <?php endwhile; endif; ?>
     </div>
