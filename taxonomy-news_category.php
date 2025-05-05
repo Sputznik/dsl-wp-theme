@@ -5,7 +5,6 @@
   get_header();
   $term = get_queried_object();
 ?>
-<div class="dsl-articles-three-grid">
   <div class="container" role="main">
 			<div class="row">
 				<div class="col-sm-12">
@@ -19,5 +18,4 @@
 				</div>
 			</div>
 	</div>
-</div>
 <?php get_footer(); ?>
