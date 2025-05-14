@@ -234,3 +234,27 @@ ul.what-we-do-list li {
 .single-template-3 a.single-read-button:hover {
   background-color: #5fbb49;
 }
+
+/* Media Query for smaller devices for title in single template */
+@media (max-width: 768px) {
+  .single-template-3 .entry-header h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .single-template-3 .entry-header h1 {
+    font-size: 28px;
+  }
+}
+
+.single-template-2 article {
+  margin-top: 90px;
+}
+.single-template-2 .header_img {
+  height: 500px;
+}
+
+.single-template-2 .post-title-section h1 {
+  font-size: 48px;
+}
